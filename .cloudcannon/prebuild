@@ -1,0 +1,8 @@
+# Clone the website repo into `website`
+git clone https://github.com/bglw/sendit-nextjs-website.git website
+
+# Move the content files from this repo into the content directory of the website
+cp -R content/posts website/content/posts
+
+# Install the dependencies of the website repo
+cd website && npm i

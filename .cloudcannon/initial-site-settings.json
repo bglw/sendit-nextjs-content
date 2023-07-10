@@ -1,10 +1,10 @@
 {
     "ssg": "nextjs",
     "build_configuration": {
-        "preserved_paths": "",
+        "preserved_paths": "website",
         "environment_variables": [],
         "install_command": "",
-        "build_command": "",
-        "output_path": "out"
+        "build_command": "cd website && npm run build",
+        "output_path": "website/out"
     }
 }
