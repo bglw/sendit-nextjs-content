@@ -3,7 +3,7 @@
     "build_configuration": {
         "preserved_paths": "website",
         "environment_variables": [],
-        "install_command": "",
+        "install_command": "echo \"Nothing to install in the content repo\"",
         "build_command": "cd website && npm run build",
         "output_path": "website/out"
     }
